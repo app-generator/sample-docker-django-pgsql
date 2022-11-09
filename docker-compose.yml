@@ -1,5 +1,13 @@
 version: '3.8'
 services:
+  postgres_db:
+    container_name: 'postgres_db'
+    image: postgres:13.0-alpine
+    ports:
+      - '5432:5432'
+    env_file: .db.env
+    networks:
+      - db_network
   appseed-app:
     container_name: appseed_app
     restart: always
@@ -8,6 +16,8 @@ services:
     networks:
       - db_network
       - web_network
+    depends_on:
+      - postgres_db
   nginx:
     container_name: nginx
     restart: always

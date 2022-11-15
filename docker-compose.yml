@@ -16,6 +16,8 @@ services:
     networks:
       - db_network
       - web_network
+    volumes:
+      - ./:/usr/src/app
     depends_on:
       - postgres_db
   nginx:

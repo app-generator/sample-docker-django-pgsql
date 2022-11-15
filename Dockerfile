@@ -4,6 +4,9 @@ FROM python:3.9
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
+# Set the default workdir
+WORKDIR /usr/src/app
+
 COPY requirements.txt .
 # install python dependencies
 RUN pip install --upgrade pip

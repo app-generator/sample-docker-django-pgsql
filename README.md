@@ -9,10 +9,9 @@
 
 > 🚀 Built with [App Generator](https://appseed.us/generator/), Timestamp: `2022-09-18 07:49`
 
-- `Up-to-date dependencies`
-- UI-Ready app, Django Native ORM
-- `Session-Based authentication`, Forms validation
-- `Docker`: bundled with `PostgreSQL`
+- ✅ `Up-to-date dependencies`
+- ✅ `Session-Based authentication`, Forms validation
+- ✅ `Docker`: bundled with `PostgreSQL`
   - `LIVE-reload` on changes
 
 <br />

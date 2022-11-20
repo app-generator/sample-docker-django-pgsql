@@ -19,6 +19,7 @@ $ docker-compose up --build
 
 
 ```bash
+$ docker-compose run --rm appseed-app python manage.py makemigrations
 $ docker-compose run --rm appseed-app python manage.py migrate
 ```
 

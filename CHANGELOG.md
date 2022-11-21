@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.2] 2022-11-21
+### Improvements
+
+- DOCS update (README)
+
 ## [1.0.1] 2022-11-15
 ### Improvements
 
